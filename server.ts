@@ -1,5 +1,5 @@
 import { createRequire } from "module";
-const require = createRequire(import.meta.url);
+// const require = createRequire(import.meta.url);
 import { createServer } from "http";
 import next from "next";
 import { Server } from "socket.io";
